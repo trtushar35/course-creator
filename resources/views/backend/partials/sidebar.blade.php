@@ -18,7 +18,7 @@
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="{{ route('backend.logout') }}">
                 <i class="bi bi-box-arrow-right"></i> <span>Logout</span>
             </a>
         </li>
