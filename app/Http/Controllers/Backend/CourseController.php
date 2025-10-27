@@ -12,7 +12,7 @@ use Exception;
 
 class CourseController extends Controller
 {
-    protected CourseService $courseService;
+    protected $courseService;
 
     public function __construct(CourseService $courseService)
     {
