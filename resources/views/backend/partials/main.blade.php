@@ -24,19 +24,18 @@
     <!-- Top Navbar -->
     @include('backend.partials.navbar')
 
-
     <!-- Main Content -->
     <div id="content">
         <div class="container-fluid">
-
             @yield('content')
-
         </div>
     </div>
 
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
-    
+
     <!-- main js -->
     <script src="{{ asset('backend/js/main.js') }}"></script>
 
@@ -44,5 +43,3 @@
 </body>
 
 </html>
-
-
